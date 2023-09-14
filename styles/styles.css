@@ -1,0 +1,118 @@
+body {
+  background-color: rgb(254, 58, 58);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #f44336;
+  font-family: Arial;
+  padding: 10px 0;
+  width: 100%;
+  border-bottom: 1px solid rgb(255, 0, 0);
+}
+
+.button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.firstparagraph {
+  background-color: #f44336;
+  color: white;
+  padding: 10px 50px 40px;
+  text-align: center;
+}
+
+.primer-boton {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.primer-boton:hover {
+  background-color: white;
+  color: black;
+}
+
+.secondparagraph {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  color: rgb(101, 67, 67);
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.secondparagraph imagen {
+  flex: 1;
+}
+
+.secondparagraph img {
+  max-width: 30%;
+  height: auto;
+  margin: 50px;
+}
+
+.texJustify {
+  flex: 1;
+  text-align: left;
+  margin: 50px;
+}
+
+.thirdparagraph {
+  display: flex;
+  background-color: #f1f1f1;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.texJustify2 {
+  flex: 1;
+  text-align: left;
+}
+
+.hirdparagraph imagen {
+  flex: 1;
+}
+
+.thirdparagraph img {
+  max-width: 30%;
+  height: auto;
+  margin: 50px;
+}
+
+.lastparagraph {
+  background-color: #666666;
+  color: white;
+  padding: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+.imagenIcons img {
+  width: 20px;
+  height: 20px;
+  margin: 0px;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+.imagenIcons{
+  text-align: center;
+}
+footer {
+  background-color: white;
+  padding: 80px;
+}
